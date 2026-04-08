@@ -1,0 +1,11 @@
+# macOS System Files
+.DS_Store
+**/.DS_Store
+
+# Local configuration
+.kube/
+*.log
+
+# Temporary files
+*.tmp
+*.bak

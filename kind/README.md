@@ -29,8 +29,8 @@ Before you begin, ensure your machine meets the minimum requirements:
 If you are setting this up on an EC2 instance, first clone the repository and navigate to the `kind` directory:
 
 ```bash
-git clone https://github.com/<your-username>/kubernetes-starter.git
-cd kubernetes-starter/kind
+git clone https://github.com/NI-Shourav/K8S-Starter.git
+cd K8S-Starter/kind
 ```
 
 ### 1️⃣ Install Dependencies
