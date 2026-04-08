@@ -8,22 +8,6 @@ Welcome! This guide provides a streamlined approach to installing **Minikube** o
 
 ---
 
-## 📋 Table of Contents
-1. [Pre-requisites](#-pre-requisites)
-2. [Step 1: Update System Packages](#step-1-update-system-packages)
-3. [Step 2: Install Required Packages](#step-2-install-required-packages)
-4. [Step 3: Install Docker](#step-3-install-docker)
-5. [Step 4: Install Minikube](#step-4-install-minikube)
-6. [Step 5: Install kubectl](#step-5-install-kubectl)
-7. [Step 6: Start Minikube](#step-6-start-minikube)
-8. [Step 7: Check Cluster Status](#step-7-verify-cluster-status-)
-9. [Step 8: Deploy First App](#step-8-deploy-your-first-application-)
-10. [Step 9: Interactive Exploration](#step-9-interactive-exploration-docker--node-)
-11. [Step 10: Stop & Cleanup](#step-10-stop--delete-cluster-)
-12. [Step 11: Uninstallation](#step-11-complete-uninstallation-optional-)
-
----
-
 ## 🛠️ Pre-requisites
 
 Before starting, ensure your system meets these minimum hardware requirements:
