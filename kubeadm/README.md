@@ -24,10 +24,6 @@ Before you begin, ensure your AWS environment is correctly configured:
     *   🔓 **Port 22**: Allow SSH access for cluster management.
     *   🔓 **Port 30080**: Allow traffic for your NodePort services (added later).
 
-> [!IMPORTANT]
-> **Step 1: Select the Security Group During Instance Creation**
-> Make sure to apply the security group mentioned above when launching your EC2 instances.
-
 ---
 
 ## 🛠️ Phase 1: Preparation (Execute on BOTH Nodes)
@@ -187,11 +183,6 @@ kubectl get svc -n kubernetes-cluster
 ---
 
 ## 🔍 Verification & Maintenance
-
-### Check Container Status (Worker Node)
-```bash
-sudo crictl ps -a
-```
 
 ### Test in Browser
 Access your application via the worker node's IP:

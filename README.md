@@ -1,6 +1,6 @@
 # ☸️ K8S-Starter
 
-Welcome to **K8S-Starter**, a comprehensive resource for setting up and managing local Kubernetes clusters. This repository provides automated scripts and documentation for both **Kind** and **Minikube** environments.
+Welcome to **K8S-Starter**, a comprehensive resource for setting up and managing Kubernetes clusters. This repository provides automated scripts and documentation for **Kind**, **Minikube**, and **Kubeadm** environments.
 
 ## 📂 Project Structure
 
@@ -13,6 +13,10 @@ This repository is organized into the following sections:
 - **[minikube/](./minikube/)**: Step-by-step guide for Minikube installation on Ubuntu.
   - Resource optimization tips.
   - First application deployment walkthrough.
+- **[kubeadm/](./kubeadm/)**: Production-ready multi-node cluster setup.
+  - Comprehensive guide for Ubuntu/AWS environments.
+  - Master and Worker node configuration.
+  - Integrated networking with Calico.
 
 ## 🚀 Getting Started
 
@@ -27,6 +31,7 @@ cd K8S-Starter
 
 - If you want a lightweight, Docker-based cluster, head over to the **[Kind Setup Guide](./kind/README.md)**.
 - If you prefer a full-featured single-node cluster (ideal for Ubuntu), follow the **[Minikube Installation Guide](./minikube/minikube_installation.md)**.
+- For a production-ready multi-node cluster, follow the **[Kubeadm Installation Guide](./kubeadm/README.md)**.
 
 ## 🛠️ Features
 
