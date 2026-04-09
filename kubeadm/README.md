@@ -170,8 +170,8 @@ Once the cluster is healthy, deploy your first application.
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/NI-Shourav/k8sStarter.git
-cd k8sStarter
+git clone https://github.com/NI-Shourav/K8S-Starter.git
+cd K8S-Starter
 cd kubeadm
 ```
 
