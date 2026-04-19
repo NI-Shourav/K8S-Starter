@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: two-tier-app
-          image: bongodev/flask-attendance-app:latest
+          image: nishourav/flask-attendance-app:latest
           env:
             - name: DB_HOST
               value: mysql # this is your mysql's service clusture IP, Make sure to change it with yours
