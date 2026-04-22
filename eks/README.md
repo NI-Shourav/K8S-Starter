@@ -213,6 +213,7 @@ eksctl create cluster \
 ```bash
 # List all pods
 kubectl get pods
+# Note: This will show "No resources found in default namespace." because no pods are created yet.
 
 # List all namespaces
 kubectl get namespace
@@ -257,7 +258,7 @@ kubectl apply -f two-tier-app-svc.yml
 # Find the LoadBalancer external IP
 kubectl get svc -n two-tier-ns
 
-# Copy the EXTERNAL-IP and paste into your browser
+# Copy the EXTERNAL-IP and paste into your browser. This will take some time (approx 2 min) to live.
 # Your application is now live! 🎉
 ```
 
